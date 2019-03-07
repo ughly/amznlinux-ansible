@@ -2,7 +2,7 @@ FROM amazonlinux
 
 MAINTAINER Joel Gilliland <joel.gilliland@team.neustar>
 
-RUN yum install -y epel-release git wget patch
+RUN yum install -y epel-release git wget tar patch
 
 RUN yum -y install python-pip
 RUN pip install awscli
